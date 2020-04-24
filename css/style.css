@@ -75,7 +75,7 @@ li a:hover{
 }
 .sectiondetails img{
     width:3em;
-    height:3em
+    height:3em;
 }
 .filter-pink{
    filter:  invert(66%)
@@ -110,7 +110,7 @@ li a:hover{
 }
 .details h4{
     font-size: 0.8em;
-    color: white
+    color: white;
 }
 .details p{
     color: #E0E0E0;
@@ -215,10 +215,6 @@ li a:hover{
     justify-content: center;
     align-items: center
 }
-.template img{
-    width:150px;    
-    height:20em;
-}
 .workdetails p {
     font-size: 1em;
     color:#4C5265;
@@ -232,12 +228,6 @@ li a:hover{
     background-color: #f7f7f7;
     border-radius: 50%;
     cursor: pointer;
-}
-.description-1{
-    margin-left:5em;
-}
-.description-2{
-    margin-right: 5em;
 }
 .description-1, .description-2{
     display: flex;
@@ -372,6 +362,28 @@ form .textarea{
 .footersocial a{
     margin:0em 1em
 }
-p,h1,h2,h3,h4,code,a,li,button{
-    font-family: 'Rubik', sans-serif;
+@font-face{
+    font-family: 'Rubik Regular';
+    src: url('./Rubik/Rubik-Regular.ttf');
+    src:url('./Rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Rubik/Rubik-Regular.woff') format('woff'),
+    url('./Rubik/Rubik-Regular.ttf') format('truetype'),
+    url('./Rubik/Rubik-Regular.svg#svgFontName') format('svg');
+}
+@font-face{
+    font-family: 'Rubik Bold';
+    src: url('./Rubik/Rubik-Bold.ttf');
+    src:url('./Rubik/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Rubik/Rubik-Bold.woff') format('woff'),
+    url('./Rubik/Rubik-Bold.ttf') format('truetype'),
+    url('./Rubik/Rubik-Bold.svg#svgFontName') format('svg');
+}
+body{
+    font-family: 'Rubik Regular';
+}
+p,a{
+    font-family: 'Rubik Regular';
+}
+h1,h2,code,h3,h4{
+    font-family: 'Rubik Bold'
 }
