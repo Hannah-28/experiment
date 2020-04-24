@@ -164,8 +164,6 @@ li a:hover{
 #about p{
     font-size: 1em;
     color: #4C5265;
-    letter-spacing: 0.1em;
-    line-height: 1.5em
 }
 .team{
     margin-top:6em
@@ -218,8 +216,10 @@ li a:hover{
 .workdetails p {
     font-size: 1em;
     color:#4C5265;
-    letter-spacing: 0.1em;
-    line-height: 1.5em;
+}
+.template img{
+    width: 40em;
+    height: 25em;
 }
 .rep{
     text-align: center
@@ -275,8 +275,6 @@ li a:hover{
 #contact p{
     font-size: 1em;
     color: #4C5265;
-    letter-spacing: 0.1em;
-    line-height: 1.5em
 }
 form{
     margin:3em 0em;
